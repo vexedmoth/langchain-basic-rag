@@ -1,4 +1,5 @@
 # RAG
+>Este RAG utiliza [Langchain](https://python.langchain.com/v0.2/docs/introduction/) como librería
 
 Orden de ejecución:
 
