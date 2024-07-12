@@ -34,7 +34,7 @@ def response(question, llm, chroma_local, prompt):
 
     # Crea una respuesta a través de rellenar el "input" con "question"
     results = rag.invoke({"input": question})
-    return results
+    return results["answer"]
 
 
 # A más temperatura, más creativo
@@ -64,5 +64,5 @@ if __name__ == "__main__":
             llm,
             chroma_local,
             create_prompt_template(instructions),
-        )["answer"]
+        )
     )
