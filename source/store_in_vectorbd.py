@@ -11,7 +11,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
 ## Extracción de información PDF en partes
-file_path = "./bitcoin_whitepaper.pdf"  # Ruta al archivo PDF
+file_path = "/home/vexedmoth/AI/langchain-basic-rag/sample_docs/bitcoin_whitepaper.pdf"  # Ruta al archivo PDF
 docs = PyPDFLoader(
     file_path
 ).load()  # Lo divide en partes. En este caso 9 (nº de páginas del PDF)
@@ -29,7 +29,7 @@ embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 # Chroma crea un almacén vectorial a partir de los fragmentos y sus embeddings
 vectorstore = Chroma.from_documents(
-    documents=splits, embedding=embeddings, persist_directory="./vectordb"
+    documents=splits, embedding=embeddings, persist_directory="../vectordb"
 )
 
 print(f"Embedding del documento {file_path} guardado en la base de datos!")
