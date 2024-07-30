@@ -1,4 +1,4 @@
-# RAG
+# Basic LangChain RAG
 >Este RAG utiliza:
 - [Langchain](https://python.langchain.com/v0.2/docs/introduction/) como librería principal
 - [Ollama](https://ollama.com/) como motor para ejecutar modelos de IA en local
