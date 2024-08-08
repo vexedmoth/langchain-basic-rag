@@ -12,3 +12,6 @@ Steps:
 2. Run `init.py`
 3. Open the browser on the corresponding port to interact `localhost:{puerto}`
 
+> Diagram:
+
+![diagram](diagram.png)
