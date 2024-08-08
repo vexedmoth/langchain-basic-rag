@@ -1,13 +1,14 @@
 # Basic LangChain RAG
 
-> Este RAG utiliza:
+> This RAG uses::
 
-- [Langchain](https://python.langchain.com/v0.2/docs/introduction/) como librería principal
-- [Ollama](https://ollama.com/) como motor para ejecutar modelos de IA en local
-- [Gradio](https://www.gradio.app/docs/gradio/chatinterface) interfaz web de chat
+- [Langchain](https://python.langchain.com/v0.2/docs/introduction/) as the main library/framework
+- [Ollama](https://ollama.com/) as the engine to run AI models locally
+- [Gradio](https://www.gradio.app/docs/gradio/chatinterface) as the web chat interface
 
 Pasos:
 
-1. Ejecutar `store_in_vectorbd.py` para guardar información del PDF en bdd local
-2. Ejecutar `init.py`
-3. Abrir navegador en el puerto que corresponda para interactuar `localhost:{puerto}`
+1. Run `store_in_vectorbd.py` to save information from the PDF into a local database
+2. Run `init.py`
+3. Open the browser on the corresponding port to interact `localhost:{puerto}`
+
